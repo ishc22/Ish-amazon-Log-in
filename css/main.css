@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center
+
+}
+.logo_ish{
+    padding-top: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+h1{
+    font-size: 100px;
+    width: 280px;
+    height:100px;
+    margin-top: 100px;
+    border: 1px solid white;
+    display: flex;
+    flex-grow: inherit;
+    margin-right: -5;
+}
+.logo_ish span{
+    margin-top: 161px;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-right: 3;
+}
+
+#sign_in{
+    width: 300px;
+    height: 300px;
+    padding: 20px 26px;
+    display: flex;
+    border: 1px solid rgba(2, 0, 5, 0.834);
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+.in{
+    border: 1px solid rgb(250, 248, 248);
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 50;
+
+
+}
+input{
+    font-weight: lighter;
+    border: .5 solid black;
+    padding: 1px -5px;
+    display:block;
+    background-color: rgb(247, 247, 247);
+    width: 300px;
+    display:flex;
+    align-content:flex-start;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.form label{
+    font-size: 1px;
+}
+
+.form span{
+    font-size: smaller;
+}
+
+.forgot_link{
+    margin-left: 120px;
+    font-size: medium;
+    font-style: none;
+    text-decoration: none;
+    color: rgb(35, 35, 247);
+}
+.forgot_link:hover{
+    color: darkorange;
+    text-decoration: underline;
+}
+
+button{
+    padding: 1px -5px;
+    display:block;
+    background-color: rgb(246, 206, 28);
+    width: 300px;
+    display:flex;
+    align-content:flex-start;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+.help{
+    color: blue;
+    text-decoration: none;
+}
+.help:hover{
+    color: darkorange;
+    text-decoration: underline;
+}
+
+button:hover{
+    background-color: rgb(251, 236, 19);
+}
+
+
+.links{
+    width: ;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    
+}
+
+.links a{
+    text-decoration: none;
+    color: blue;
+    align-items: center;
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    font-size: 15px;
+
+}
+.break p{
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    position: relative;
+    display: inline-block;
+    padding: 0 0px 0 120px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.new{
+    color: rebeccapurple;
+    margin-left: 25px;
+}
+
+footer p{
+    padding-left: 28px;
+    
+}
+    
+
